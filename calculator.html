@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='calculator.css'>
+    
+</head>
+<body>
+    <div class="calculator">
+        <div id="display-container">
+            <p id="display"> </p>
+        </div>
+
+        <table border="2" class="calculator-table">
+            <tr class="first-row">
+                <th class="cream-colour button" data-value="AC">
+                    <h2 id="clear">AC&nbsp</h2>
+                </th>
+
+                <th class="cream-colour button" data-value="rem">
+                    <h2 id="plus-minus">rem</h2>
+                </th>
+
+                <th class="cream-colour button" data-value="%">
+                    <h2 id="remainder">&nbsp%&nbsp</h2>
+                </th>
+
+                <th class="red button" data-value="/">
+                    <h2 id="division">&nbsp&nbsp/&nbsp&nbsp</h2>
+                </th>
+            </tr>
+
+            <tr class="second-row">
+                <th class="cream-colour button" data-value="7">
+                    <h2 id="seven">7</h2>
+                </th>
+
+                <th class="cream-colour button" data-value="8">
+                    <h2 id="eight">8</h2>
+                </th>
+
+                <th class="cream-colour button" data-value="9">
+                    <h2 id="nine">9</h2>
+                </th>
+
+                <th class="red button" data-value="*">
+                    <h2 id="multiply">*</h2>
+                </th>
+            </tr>
+
+            <tr class="third-row">
+                <th class="cream-colour button" data-value="4">
+                    <h2 id="four">4</h2>
+                </th>
+
+                <th class="cream-colour button" data-value="5">
+                    <h2 id="five">5</h2>
+                </th>
+
+                <th class="cream-colour button" data-value="6">
+                    <h2 id="six">6</h2>
+                </th>
+
+                <th class="red button" data-value="-">
+                    <h2 id="minus">-</h2>
+                </th>
+            </tr>
+
+            <tr class="fourth-row">
+                <th class="cream-colour button" data-value="1">
+                    <h2 id="one">1</h2>
+                </th>
+
+                <th class="cream-colour button" data-value="2">
+                    <h2 id="two">2</h2>
+                </th>
+
+                <th class="cream-colour button" data-value="3">
+                    <h2 id="three">3</h2>
+                </th>
+
+                <th class="red button" data-value="+">
+                    <h2 id="plus">+</h2>
+                </th>
+            </tr>
+
+            <tr class="fifth-row">
+                <th colspan="2" class="cream-colour button" data-value="0">
+                    <h2 id="zero">0</h2>
+                </th>
+
+                <th class="cream-colour button" data-value=".">
+                    <h2 id="point">.</h2>
+                </th>
+
+                <th class="red button" data-value="=">
+                    <h2 id="equality">=</h2>
+                </th>
+            </tr>
+        </table>
+    </div>
+
+    <script type="text/javascript" src='calculator.js'></script>
+</body>
+</html>

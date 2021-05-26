@@ -1,0 +1,46 @@
+.calculator{
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    height: 450px;
+    width: 330px;
+    background-color:rgb(218, 209, 199);
+}
+
+.calculator-table{
+    width: 330px;
+    padding-top: 80px;
+}
+
+.cream-colour{
+    background-color: antiquewhite;
+    transition: 0.5s;
+}
+
+.red{
+    background-color: brown;
+    transition: 0.5s;
+}
+
+#division, #multiply, #minus, #plus, #equality{
+    color: white;
+}
+
+#display{
+    position: absolute;
+    font-size: 25px;
+    margin-left: 10px;
+    color: rgb(19, 18, 27);
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.cream-colour:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+.red:hover{
+    background-color:darkgreen;
+    cursor: pointer;
+}
